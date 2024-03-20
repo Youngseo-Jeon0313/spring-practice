@@ -28,7 +28,8 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     //DL(Dependency Lookup)을 위한 Provider 라이브러리
-    implementation("jakarta.inject:jakarta.inject-api:2.0.1")
+    implementation "jakarta.inject:jakarta.inject-api:2.0.1"
+    implementation 'org.springframework:spring-aspects:5.3.14'
 }
 
 tasks.named('test') {
